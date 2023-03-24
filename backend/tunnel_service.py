@@ -7,7 +7,7 @@ class TunnelService:
 
     def getHashData(hashtag_name):
         accessToken = 'EAAMsiJ2hwv0BAN2ZB5bSRBbB4Vo0W8FjuLbbfgXZCXr3Eg5EC6XusXDJSMD4Q8cGwmZBmWDbRlZAZCUw6sRCA78l2WGtXPhZCdGroveu0MIrt5gyGSIGNiVI3GD8wDrWn90roAICg8tYnMsJyZAPhqdi4mAZA8PX63int7nmfzIrdnCbGduBnQ33p7VokspF7tE3vOmPD5t1gELS9lBwy8jG4bVJ7FZAygP7quYFdzj7bze7jyXo1mmKx-------------------------------------------------------'
-        instagramAccid = "17841437857515218"
+        instagramAccid = ""
         hashtag = hashtag_name
         hashtagId = TunnelService.get_hashtag_id(hashtag, instagramAccid, accessToken)
         print(hashtagId)
